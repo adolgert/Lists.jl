@@ -19,7 +19,7 @@ removing other items in the list won't invalidate that index.
 
 Usage:
 ```julia
-a = List{Int}()    # Create a list of the given type.
+l = List{Int}()    # Create a list of the given type.
 isempty(l)         # Test whether there are any items.
 empty!(l)          # Remove all items.
 length(l)          # The number of entries. An O(n) operation.
